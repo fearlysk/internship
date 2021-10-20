@@ -1,20 +1,20 @@
 <template>
-  <Task />
+  <h1>Task 1</h1>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import Task from './components/Task.vue';
-
 
 export default defineComponent({
-  name: 'App',
-  components: {
-    Task
-  }
+  name: 'Task',
+  props: {
+  
+  },
 });
 </script>
 
-<style lang="scss">
-
+<style scoped lang="scss">
+ h1 {
+   text-align: center;
+ }
 </style>
