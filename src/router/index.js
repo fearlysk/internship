@@ -25,7 +25,6 @@ const routes = [
     name: 'SignUp',
     component: SignUp
   }
-
 ]
 
 const router = createRouter({

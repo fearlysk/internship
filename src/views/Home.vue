@@ -6,6 +6,10 @@
     <alert-modal />
          <br>
     <input-text />
+         <br>
+    <input-password />
+        <br>
+      <rating />
 </div>
 </template>
 
@@ -13,13 +17,17 @@
 import buttonSubmit from '../elements/buttonSubmit.vue';
 import alertModal from '../elements/alertModal.vue';
 import inputText from '../elements/inputText.vue';
+import inputPassword from '../elements/inputPassword.vue';
+import rating from '../elements/rating.vue';
 
 export default {
    name: 'Home',
     components: {
     buttonSubmit,
     alertModal,
-    inputText
+    inputText,
+    inputPassword,
+    rating
   }
 }
 </script>

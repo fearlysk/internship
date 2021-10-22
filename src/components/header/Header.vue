@@ -15,7 +15,7 @@
                     <a href="/signin">Sign In</a>
                 </div>
                 <div class="header_nav_item">
-                    <a href="/signup">Sign Up</a>
+                    <a href="/signup ">Sign Up</a>
                 </div>
             </div>
     </div>
