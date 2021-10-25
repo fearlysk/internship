@@ -17,6 +17,8 @@
         <br>
       <message-modal />
         <br>
+      <alert-message />
+        <br>
 </div>
 </template>
 
@@ -28,6 +30,7 @@ import inputPassword from '../elements/inputPassword.vue';
 import rating from '../elements/rating.vue';
 import Registration from '../components/users/Registration.vue';
 import messageModal from '../elements/messageModal.vue';
+import alertMessage from '../elements/alertMessage.vue';
 
 export default {
    name: 'Home',
@@ -38,7 +41,8 @@ export default {
     inputPassword,
     rating,
     Registration,
-    messageModal
+    messageModal,
+    alertMessage
   }
 }
 </script>
