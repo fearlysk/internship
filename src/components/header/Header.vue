@@ -6,7 +6,7 @@
                     <a href="/">Home</a>
                 </div>
                 <div class="header_nav_item">
-                    <a class="header_nav_item_products" href="#">Products</a>
+                    <a class="header_nav_item_products" href="/products">Products</a>
                 </div>
                 <div class="header_nav_item">
                     <a href="/about">About</a>

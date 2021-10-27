@@ -3,6 +3,9 @@ import Home from '../views/Home.vue';
 import About from '../views/About.vue';
 import SignIn from '../views/SignIn.vue';
 import SignUp from '../views/SignUp.vue';
+import ProductsCard from '../components/products/ProductsCard.vue'
+import Products from '../views/Products.vue';
+import NotFound from '../views/NotFound.vue';
 
 const routes = [
   {
@@ -24,7 +27,22 @@ const routes = [
     path: '/signup',
     name: 'SignUp',
     component: SignUp
-  }
+  },
+  {
+    path: '/products',
+    name: 'Products',
+    component: Products
+  },
+  {
+    path: '/products/:id',
+    name: 'ProductsCard',
+    component: ProductsCard
+  },
+  { 
+    path: '/:pathMatch(.*)*',
+    name: '404',
+    component: NotFound
+  },
 ]
 
 const router = createRouter({
