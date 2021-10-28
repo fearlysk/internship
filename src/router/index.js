@@ -3,7 +3,7 @@ import Home from '../views/Home.vue';
 import About from '../views/About.vue';
 import SignIn from '../views/SignIn.vue';
 import SignUp from '../views/SignUp.vue';
-import ProductsCard from '../components/products/ProductsCard.vue'
+import ProductsCardPage from '../components/products/ProductsCardPage.vue'
 import Products from '../views/Products.vue';
 import NotFound from '../views/NotFound.vue';
 
@@ -35,8 +35,8 @@ const routes = [
   },
   {
     path: '/products/:id',
-    name: 'ProductsCard',
-    component: ProductsCard
+    name: 'ProductsCardPage',
+    component: ProductsCardPage
   },
   { 
     path: '/:pathMatch(.*)*',

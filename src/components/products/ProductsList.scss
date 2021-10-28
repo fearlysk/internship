@@ -1,18 +1,6 @@
-.product_list_wrapper {
-    margin: 0 auto;
-}
-.product_list {
+.products_list {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-}
-.product_card {
-    background-color: $graybg;
-    width: 250px;
-    color: $white;
-    height: 400px;
-    border: 1px solid black;
-    margin: 15px 25px;
-    text-align: center;
+    flex-wrap: wrap;
 }

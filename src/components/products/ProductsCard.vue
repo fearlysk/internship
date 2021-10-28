@@ -1,22 +1,22 @@
 <template>
-    <div>
-        <h1>Номер товара: {{ productId }}</h1>
-    </div>
+  <div class="product_card_wrapper">
+        <div class="product_card">
+            <router-link :to="`/products/${id}`"><img height="240" width="248" :src="image" alt="Image Not Found" /></router-link>
+            <hr>
+            <p>Название: {{ title }}</p>
+            <p>Цена: {{ price }}</p>
+        </div>
+  </div>
 </template>
 
 <script>
 export default {
-    data() {
-         return {}
-    },
-    computed: {
-        productId() {
-            return +this.$route.params.id;
-        }
-    }
+   name: "ProductsCard",
+   props: ['id','image','title','price']
 }
 </script>
 
-<style>
-
+<style lang="scss">
+@import '../styles.scss';
+@import 'ProductsCard.scss';
 </style>
